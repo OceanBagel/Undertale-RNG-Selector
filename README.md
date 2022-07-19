@@ -32,7 +32,7 @@ The Python script has several functions for manipulating settings, as well as ta
 
 First, apply the code changes to the 1.001 Linux game.unx, either through a patch (included in the releases) or through importing the gml code using [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool).
 
-Note: if you're using the gml files, you must also change all of the following:
+Note: if you're using the gml files, you must also check the `Visible` box under `obj_time` and change all of the following:
 - `random(`
 - `choose(`
 - `game_restart(`
