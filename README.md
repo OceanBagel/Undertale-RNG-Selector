@@ -30,9 +30,9 @@ The Python script has several functions for manipulating settings, as well as ta
 
 ## How is it installed?
 
-First, apply the code changes to the 1.001 Linux game.unx, either through a patch (included in the releases) or through importing the gml code using [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool).
+First, apply the code changes to the 1.001 Linux game.unx, either by using [Floating IPS](https://www.smwcentral.net/?a=details&id=11474&p=section) to install the patch (included in the releases) or through importing the gml code using [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool).
 
-Note: if you're using the gml files, you must also check the `Visible` box under `obj_time` and change all of the following:
+Note: if you're using the gml files, you must also check the `Visible` box under `obj_time` and change all of the following everywhere in the game's code:
 - `random(`
 - `choose(`
 - `game_restart(`
